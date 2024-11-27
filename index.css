@@ -1,0 +1,197 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+ul .attr{
+    display: inline-block;
+    margin-left: 35px;
+    font-weight: 300;
+    border-bottom:none;
+}
+ul .attr a{
+    text-decoration: none;
+    color:wheat;
+}
+ul .title{
+    display: inline-block;
+    margin-right:20%;
+    font-size: 40px;
+    padding-left: 20px;
+}
+ul .title{
+    color:rgb(247, 165, 66);
+    font-family: cursive;
+}
+nav{
+    background-color:green;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-size: 25px;
+    padding-left:20px;
+    padding-right: 30px;
+    position: fixed;
+    width: 100%;
+}
+ul .attr:hover a{
+    color:white;
+}
+.mission{
+    background-color: green;
+    padding-bottom: 150px;
+}
+.m-title{
+    font-size:50px;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color:rgb(247, 165, 66);
+}
+.pre{
+    font-size: 30px;
+    font-family: cursive;
+    color:wheat;
+}
+.contact{
+    background-color: green;
+    padding-bottom: 50px;
+}
+.contact h1{
+    text-align: center;
+    line-height: 1.2;
+    font-size: 3.6rem;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color:rgb(247, 165, 66);
+}
+.contact form{
+    max-width: 60rem;
+    margin:1rem auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,.contact form textarea{
+    width: 100%;
+    padding: 1.3rem;
+    font-size: 1.6rem;
+    color:white;
+    background: rgb(67, 187, 67);
+    border-radius: .8rem;
+    margin:.7rem 0;
+    border-color:black;
+    font-family: cursive;
+    
+}
+.contact form .input-box input{
+    width: 48%;
+}
+.contact form textarea{
+    resize: none;
+    cursor: pointer;
+}
+.contact form .btn{
+    background-color: rgb(76, 235, 76);
+    padding: 1.2rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    border: none;
+    cursor:pointer;
+}
+.contact form .btn:hover{
+    box-shadow: 0px 3px 12px 0px #8d8c8c;
+    background-color: rgb(40, 228, 40);
+    color:white;
+}
+.contact form .input-box input:focus,.contact form textarea:focus{
+    outline: none;
+}
+::placeholder{
+    color:white;
+}
+.footer{
+    font-size: 16px;
+    color:white;
+    background-color: #343434;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;   
+    gap:330px;
+    padding-bottom: 50px;
+}
+.footer h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+    text-align: center;
+    color:wheat;
+}
+.footer ul{
+    text-align:center;
+}
+.footer li{
+    padding: 7px;
+    position: relative;
+    list-style-type: none;
+    width: auto;
+    text-align: center;
+}
+.footer3{
+    text-align: center;
+    padding: 0;
+}
+.footer3 li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.footer3 li i{
+    color:wheat;
+    font-size: 25px;
+}
+.footer2 li a{
+    text-decoration: none;
+    color:wheat;
+}
+.sub-menu-one{
+    display: none;
+
+}
+nav .menu1:hover .sub-menu-one{
+    display: block;
+    position:absolute;   
+    background-color: green;
+}
+nav .menu1:hover .sub-menu-one li{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+
+.sub-menu-two{
+    display: none;
+
+}
+nav .menu2:hover .sub-menu-two{
+    display: block;
+    position:absolute;   
+    background-color: green;
+}
+nav .menu2:hover .sub-menu-two li{
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    list-style-type: none;
+}
